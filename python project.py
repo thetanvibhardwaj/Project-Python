@@ -13,7 +13,6 @@ df = pd.read_excel(file_path)
 print("Dataset Preview:")
 print(df.head())
 
-
 # Objective 1: Most Popular EV Makes
 print("\nTop 10 EV Makes:")
 top_makes = df['Make'].value_counts().head(10)
